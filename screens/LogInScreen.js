@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from 'react'
 import { KeyboardAvoidingView, Text, StyleSheet, View, TextInput, TouchableOpacity } from 'react-native'
 import { createUserWithEmailAndPassword, signInWithEmailAndPassword} from "firebase/auth";
-import {auth, firestore} from '../firebaseConfig';
+import {auth} from '../firebaseConfig';
 import { useNavigation } from '@react-navigation/core';
-import { StackActions } from '@react-navigation/native';
+
 
 
 const LogInScreen = (props) => {
@@ -16,15 +16,13 @@ const LogInScreen = (props) => {
     const navigation = useNavigation()
 
     useEffect(() => {
-        const unsubscribe = auth.onAuthStateChanged((user) => {
-            if (user) {
-            navigation.navigate("Home", {
-                studentNumber: studentNumber})
+        const unsubscribe = auth.onAuthStateChanged( user => {
+            if (user) { 
+                navigation.navigate("Home")
             }
         })
-
         return unsubscribe
-    },[])
+    }, [])
 
     const HandleSignUp = () => {
         createUserWithEmailAndPassword(auth, studentNumber + emailDomain, password)
@@ -82,7 +80,7 @@ const LogInScreen = (props) => {
         </View>
       </KeyboardAvoidingView>
     )
-  }
+    }
 
 export default LogInScreen
 
