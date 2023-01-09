@@ -9,7 +9,7 @@ The objective of this project is to develop a cloud connected mobile app to coll
 - [x] After sign up, collect and update details such as name, course, year in Firestore > StudentID, allow editing these details later
 - [x] Collect and store locally 1000 accelerometer data points
 - [x] Once 1000 data points are collected, upload to Firestore under: Users > StudentID > accelerometer_data
-- [ ] Repeat 3 and 4 as long as the app is open and is in the foreground (Don't record when minimised)
+- [x] Repeat 3 and 4 as long as the app is open and is in the foreground (Don't record when minimised)
 ## Display Leaderboard ##
 - [ ] Retrieve accelerometer_data of all users and calculate movement score2 for each user
 - [ ] If accelerometer_data is unavailable or not in correct format or has more than 1000 data points, show score "N/A".
@@ -37,3 +37,15 @@ where,
 n is the number of data points (1000 in this project)
 (x, y, z) is one accelerometer data point
 3 Feel free to use your own function or an external open source library to convert timestamp to time ago format
+
+### References ###
+
+[Firebase](https://docs.expo.dev/guides/using-firebase/)
+[React native navigation](https://reactnavigation.org/docs/getting-started/)
+[Firestore - adding data](https://firebase.google.com/docs/firestore/manage-data/add-data)
+[Accelerometer-sensors](https://docs.expo.dev/versions/latest/sdk/accelerometer/#accelerometer--methods)
+[Firebase - User authentication](https://www.youtube.com/watch?v=ql4J6SpLXZA)
+
+## Youtube link ##
+
+[ScreenCast video](https://www.youtube.com/watch?v=TtqD6TVpMCw)

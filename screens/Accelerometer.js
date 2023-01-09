@@ -40,7 +40,7 @@ const UploadAccelerometerData = async () => {
       //Passing data do x, y, z state
         setData(accelerometerData);
 
-        // Pussing the data to accelerometer array
+        // Passing the data to accelerometer array
         accelerometerDataArray.push({
             x: accelerometerData.x,
             y: accelerometerData.y,
