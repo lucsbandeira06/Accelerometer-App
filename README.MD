@@ -40,12 +40,12 @@ n is the number of data points (1000 in this project)
 
 ### References ###
 
-[Firebase](https://docs.expo.dev/guides/using-firebase/)
-[React native navigation](https://reactnavigation.org/docs/getting-started/)
-[Firestore - adding data](https://firebase.google.com/docs/firestore/manage-data/add-data)
-[Accelerometer-sensors](https://docs.expo.dev/versions/latest/sdk/accelerometer/#accelerometer--methods)
-[Firebase - User authentication](https://www.youtube.com/watch?v=ql4J6SpLXZA)
+- [Firebase](https://docs.expo.dev/guides/using-firebase/)
+- [React native navigation](https://reactnavigation.org/docs/getting-started/)
+- [Firestore - adding data](https://firebase.google.com/docs/firestore/manage-data/add-data)
+- [Accelerometer-sensors](https://docs.expo.dev/versions/latest/sdk/accelerometer/#accelerometer--methods)
+- [Firebase - User authentication](https://www.youtube.com/watch?v=ql4J6SpLXZA)
 
 ## Youtube link ##
 
-[ScreenCast video](https://www.youtube.com/watch?v=TtqD6TVpMCw)
+- [ScreenCast video](https://www.youtube.com/watch?v=TtqD6TVpMCw)
